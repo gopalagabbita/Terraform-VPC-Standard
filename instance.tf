@@ -8,9 +8,9 @@ resource "aws_instance" "Standard-Server" {
   subnet_id                   = aws_subnet.standard_subnet_01.id
   #root disk
   root_block_device {
-    volume_size = "20"
-    volume_type = "gp2"
-    encrypted = false 
+    volume_size           = "20"
+    volume_type           = "gp2"
+    encrypted             = false
     delete_on_termination = true
   }
   tags = {
