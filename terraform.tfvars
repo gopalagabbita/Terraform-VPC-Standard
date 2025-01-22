@@ -1,0 +1,7 @@
+cidr_block = "10.70.0.0/16"
+ami = "ami-04b4f1a9cf54c11d0"
+instance_type = "t2.medium"
+availability_zone = "us-east-1a"
+volume_size = "50"
+volume_type = "gp2"
+key_name = "ec2-tutorials"
