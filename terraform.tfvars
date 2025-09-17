@@ -1,6 +1,6 @@
 cidr_block        = "10.70.0.0/16"
-ami               = "ami-04b4f1a9cf54c11d0"
-instance_type     = "t2.medium"
+ami               = "ami-08982f1c5bf93d976"
+instance_type     = "t2.micro"
 availability_zone = "us-east-1a"
 volume_size       = "50"
 volume_type       = "gp2"
