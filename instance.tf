@@ -14,6 +14,6 @@ resource "aws_instance" "Jenkins-Server" {
     delete_on_termination = true
   }
   tags = {
-    "Name" = "Jenkins-Server"
+    "Name" = "ShellScripting-Server"
   }
 }

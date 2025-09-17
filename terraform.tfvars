@@ -1,5 +1,5 @@
 cidr_block        = "10.70.0.0/16"
-ami               = "ami-08982f1c5bf93d976"
+ami               = "ami-0360c520857e3138f"
 instance_type     = "t2.micro"
 availability_zone = "us-east-1a"
 volume_size       = "50"
