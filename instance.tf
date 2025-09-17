@@ -1,4 +1,4 @@
-resource "aws_instance" "Jenkins-Server" {
+resource "aws_instance" "ShellScripting-Server" {
   instance_type               = var.instance_type
   key_name                    = var.key_name
   ami                         = var.ami
