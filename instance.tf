@@ -13,6 +13,9 @@ resource "aws_instance" "ShellScripting-Server" {
     encrypted             = false
     delete_on_termination = true
   }
+
+  user_data = base64encode(file("${path.module}/user_data.sh"))
+
   tags = {
     "Name" = "ShellScripting-Server"
   }
