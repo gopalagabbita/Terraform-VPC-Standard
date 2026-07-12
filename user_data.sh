@@ -43,3 +43,9 @@ usermod -aG docker ubuntu
 # Verify installations
 docker --version
 docker-compose --version
+
+# Install Nginx
+apt update
+apt install nginx -y
+systemctl start nginx
+systemctl enable nginx

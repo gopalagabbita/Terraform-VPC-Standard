@@ -7,6 +7,7 @@ resource "aws_subnet" "standard_subnet_01" {
     "Name" = "standard_subnet_01"
   }
 }
+
 resource "aws_subnet" "standard_subnet_02" {
   vpc_id                  = aws_vpc.vpc_standard.id
   cidr_block              = "10.70.12.0/24"
